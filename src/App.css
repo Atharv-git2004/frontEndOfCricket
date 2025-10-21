@@ -1,0 +1,112 @@
+/* Full page background */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #1b5e20, #388e3c); /* cricket ground green shades */
+  color: #fff;
+}
+
+/* Container box */
+div {
+  width: 95%; /* full width look */
+  margin: 30px auto;
+  padding: 20px;
+  background-color: rgba(245, 245, 220, 0.2); /* light pitch beige transparent */
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+/* Headings */
+h1 {
+  color: #ffd700; /* golden yellow like trophy */
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px #000;
+  font-size: 28px;
+}
+
+/* Input fields */
+input {
+  padding: 10px;
+  margin: 5px 5px 15px 0;
+  border: 1px solid #a5d6a7;
+  border-radius: 6px;
+  width: 200px;
+  font-size: 14px;
+  background-color: #e8f5e9;
+  color: #1b5e20;
+}
+
+input:focus {
+  outline: none;
+  border-color: #66bb6a;
+  box-shadow: 0 0 6px #66bb6a;
+}
+
+/* Buttons */
+button {
+  padding: 10px 15px;
+  margin: 5px 5px 15px 0;
+  background-color: #2e7d32; /* dark green */
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #43a047; /* lighter green */
+  transform: scale(1.05);
+}
+
+/* Edit & Delete buttons */
+button.edit {
+  background-color: #f9a825; /* gold-yellow */
+}
+
+button.edit:hover {
+  background-color: #fbc02d;
+}
+
+button.delete {
+  background-color: #c62828; /* red */
+}
+
+button.delete:hover {
+  background-color: #e53935;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 25px;
+  background-color: rgba(255, 255, 255, 0.95);
+  color: #1b5e20;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Table headers */
+table th {
+  background-color: #2e7d32;
+  color: #fff;
+  font-weight: bold;
+  padding: 12px;
+  text-transform: uppercase;
+}
+
+/* Table cells */
+table td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #c8e6c9;
+}
+
+/* Hover effect for rows */
+table tr:hover {
+  background-color: #dcedc8; /* light grass green */
+  transition: 0.2s;
+}

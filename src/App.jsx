@@ -10,7 +10,7 @@ function App() {
   const [roll, setRoll] = useState("");
   const [editId, setEditId] = useState(null);
 
-  const API = "http://localhost:5000/students";
+  const API = "https://cricketserver-tuhr.onrender.com/students";
 
  
   useEffect(() => {
@@ -58,7 +58,7 @@ function App() {
 
   return (
     <div style={{ textAlign: "center" }}>
-      <h1>🏏 Cricket Player Details</h1>
+      <h1>🏏 Cricket Player Details</h1> 
       <input value={name} onChange={(e) => setName(e.target.value)} placeholder="Player Name" />{" "}
       <input value={cls} onChange={(e) => setCls(e.target.value)} placeholder="Team" />{" "}
       <input value={id} onChange={(e) => setId(e.target.value)} placeholder="Player ID" />{" "}
